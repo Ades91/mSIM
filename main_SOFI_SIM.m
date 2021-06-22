@@ -1,7 +1,8 @@
 % 2D SOFI-SIM reconstruction
 % load and format data, compute SOFI and reconstruct nth order SIM
+% (see https://doi.org/10.1021/acsphotonics.1c00668)
 addpath(genpath(['..',filesep,'ImDecorr',filesep,'funcs']));    % https://github.com/Ades91/ImDecorr
-addpath(genpath(['..',filesep,'sofipackag']));                  % https://github.com/kgrussmayer/sofipackage
+addpath(genpath(['..',filesep,'sofipackage']));                  % https://github.com/kgrussmayer/sofipackage
 addpath(genpath(['..',filesep,'jsonlab-master']));              % https://github.com/fangq/jsonlab
 
 addpath(genpath(cd));
